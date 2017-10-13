@@ -18,6 +18,7 @@ namespace EuroleagueParser
             TotalRating = Decimal.Parse(info[4]);
             AverageRating = Decimal.Parse(info[5]);
             AverageRatingPer40Mins = Decimal.Parse(info[6]);
+
         }
         public string PlayerId { get; set; }
         public int RankingPosition { get; set; }
